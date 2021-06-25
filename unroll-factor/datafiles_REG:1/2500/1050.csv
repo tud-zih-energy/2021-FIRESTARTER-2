@@ -1,0 +1,5 @@
+metric,num_timepoints,duration_ms,average,stddev
+"ipc-estimate",128,0,1.99021,0.00221016
+"metricq",76,3770,316.057,0.395558
+"perf-freq",37,3602,2.49568,0.000422339
+"perf-ipc",38,3702,1.99798,4.44167e-05

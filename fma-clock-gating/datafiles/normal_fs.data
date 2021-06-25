@@ -1,0 +1,177 @@
+[2021-06-15 16:17:45.137349583 CEST][metricq][ INFO]: connecting to management server: amqps://***:***@rabbitmq.metricq.zih.tu-dresden.de/
+[2021-06-15 16:17:45.323384364 CEST][ INFO]: Subscribed to queue summary.aa942a0e7ddf041dcd4346bfde5bf596-547864d611104e9eafed8c17dd11c4ca-data
+[2021-06-15 16:17:45.323425144 CEST][ INFO]: Executing FIRESTARTER...
+[2021-06-15 16:17:45.323634995 CEST][ INFO]: Waiting for FIRESTARTER (pid: 122852) to exit...
+FIRESTARTER - A Processor Stress Test Utility, Version v2.0
+Copyright (C) 2021 TU Dresden, Center for Information Services and High Performance Computing
+
+This program comes with ABSOLUTELY NO WARRANTY; for details run `FIRESTARTER -w`.
+This is free software, and you are welcome to redistribute it
+under certain conditions; run `FIRESTARTER -c` for details.
+
+  Running custom instruction group: REG:1
+
+  Taking FMA path optimized for ZEN_2_EPYC - 2 thread(s) per core
+  Used buffersizes per thread:
+    - L1i-Cache: 16384 Bytes
+    - L1d-Cache: 16384 Bytes
+    - L2d-Cache: 262144 Bytes
+    - L3d-Cache: 1048576 Bytes
+    - Memory: 52428800 Bytes
+  system summary:
+    number of processors:        2
+    number of cores per package: 32
+    number of threads per core:  2
+    total number of threads:     128
+
+  processor characteristics:
+    architecture:       x86_64
+    vendor:             AMD
+    processor-name:     AMD EPYC 7502 32-Core Processor
+    model:              Family 23, Model 49, Stepping 0
+    frequency:          2500 MHz
+    supported features: MT NX ADX AESNI ALTMOVCR8 AVX AVX2 BMI BMI2 CLFLUSH CLFLUSHOPT CLWB CLZERO CMOV CMPXCHG16B CMPXCHG8B F16C FMA FPU FSGSBASE FXSR I486 LAHFSAHF LZCNT MCOMMIT MMX MMX2 MONITOR MONITORX MOVBE MSR MSSE OSXSAVE PCLMULQDQ POPCNT PREFETCHW RDPID RDPRU RDRAND RDSEED RDTSC RDTSCP SHA SKINIT SMAP SMEP SSE SSE2 SSE3 SSE4_1 SSE4_2 SSE4A SSSE3 SVM WBNOINVD XSAVE XSAVEC XSAVEOPT XSAVES 
+    Caches:
+      - Level 1 Data Cache, 32 KiB, 64 B Cacheline, 8-way set associative, shared among 2 threads.
+      - Level 1 Instruction Cache, 32 KiB, 64 B Cacheline, 8-way set associative, shared among 2 threads.
+      - Unified Level 2 Cache, 512 KiB, 64 B Cacheline, 8-way set associative, shared among 2 threads.
+      - Unified Level 3 Cache, 16384 KiB, 64 B Cacheline, 16-way set associative, shared among 8 threads.
+
+  using 128 threads
+    - Thread 0 run on CPU 0, core 0 in package: 0
+    - Thread 1 run on CPU 1, core 1 in package: 0
+    - Thread 2 run on CPU 2, core 2 in package: 0
+    - Thread 3 run on CPU 3, core 3 in package: 0
+    - Thread 4 run on CPU 4, core 4 in package: 0
+    - Thread 5 run on CPU 5, core 5 in package: 0
+    - Thread 6 run on CPU 6, core 6 in package: 0
+    - Thread 7 run on CPU 7, core 7 in package: 0
+    - Thread 8 run on CPU 8, core 8 in package: 0
+    - Thread 9 run on CPU 9, core 9 in package: 0
+    - Thread 10 run on CPU 10, core 10 in package: 0
+    - Thread 11 run on CPU 11, core 11 in package: 0
+    - Thread 12 run on CPU 12, core 12 in package: 0
+    - Thread 13 run on CPU 13, core 13 in package: 0
+    - Thread 14 run on CPU 14, core 14 in package: 0
+    - Thread 15 run on CPU 15, core 15 in package: 0
+    - Thread 16 run on CPU 16, core 16 in package: 0
+    - Thread 17 run on CPU 17, core 17 in package: 0
+    - Thread 18 run on CPU 18, core 18 in package: 0
+    - Thread 19 run on CPU 19, core 19 in package: 0
+    - Thread 20 run on CPU 20, core 20 in package: 0
+    - Thread 21 run on CPU 21, core 21 in package: 0
+    - Thread 22 run on CPU 22, core 22 in package: 0
+    - Thread 23 run on CPU 23, core 23 in package: 0
+    - Thread 24 run on CPU 24, core 24 in package: 0
+    - Thread 25 run on CPU 25, core 25 in package: 0
+    - Thread 26 run on CPU 26, core 26 in package: 0
+    - Thread 27 run on CPU 27, core 27 in package: 0
+    - Thread 28 run on CPU 28, core 28 in package: 0
+    - Thread 29 run on CPU 29, core 29 in package: 0
+    - Thread 30 run on CPU 30, core 30 in package: 0
+    - Thread 31 run on CPU 31, core 31 in package: 0
+    - Thread 32 run on CPU 32, core 32 in package: 1
+    - Thread 33 run on CPU 33, core 33 in package: 1
+    - Thread 34 run on CPU 34, core 34 in package: 1
+    - Thread 35 run on CPU 35, core 35 in package: 1
+    - Thread 36 run on CPU 36, core 36 in package: 1
+    - Thread 37 run on CPU 37, core 37 in package: 1
+    - Thread 38 run on CPU 38, core 38 in package: 1
+    - Thread 39 run on CPU 39, core 39 in package: 1
+    - Thread 40 run on CPU 40, core 40 in package: 1
+    - Thread 41 run on CPU 41, core 41 in package: 1
+    - Thread 42 run on CPU 42, core 42 in package: 1
+    - Thread 43 run on CPU 43, core 43 in package: 1
+    - Thread 44 run on CPU 44, core 44 in package: 1
+    - Thread 45 run on CPU 45, core 45 in package: 1
+    - Thread 46 run on CPU 46, core 46 in package: 1
+    - Thread 47 run on CPU 47, core 47 in package: 1
+    - Thread 48 run on CPU 48, core 48 in package: 1
+    - Thread 49 run on CPU 49, core 49 in package: 1
+    - Thread 50 run on CPU 50, core 50 in package: 1
+    - Thread 51 run on CPU 51, core 51 in package: 1
+    - Thread 52 run on CPU 52, core 52 in package: 1
+    - Thread 53 run on CPU 53, core 53 in package: 1
+    - Thread 54 run on CPU 54, core 54 in package: 1
+    - Thread 55 run on CPU 55, core 55 in package: 1
+    - Thread 56 run on CPU 56, core 56 in package: 1
+    - Thread 57 run on CPU 57, core 57 in package: 1
+    - Thread 58 run on CPU 58, core 58 in package: 1
+    - Thread 59 run on CPU 59, core 59 in package: 1
+    - Thread 60 run on CPU 60, core 60 in package: 1
+    - Thread 61 run on CPU 61, core 61 in package: 1
+    - Thread 62 run on CPU 62, core 62 in package: 1
+    - Thread 63 run on CPU 63, core 63 in package: 1
+    - Thread 64 run on CPU 64, core 0 in package: 0
+    - Thread 65 run on CPU 65, core 1 in package: 0
+    - Thread 66 run on CPU 66, core 2 in package: 0
+    - Thread 67 run on CPU 67, core 3 in package: 0
+    - Thread 68 run on CPU 68, core 4 in package: 0
+    - Thread 69 run on CPU 69, core 5 in package: 0
+    - Thread 70 run on CPU 70, core 6 in package: 0
+    - Thread 71 run on CPU 71, core 7 in package: 0
+    - Thread 72 run on CPU 72, core 8 in package: 0
+    - Thread 73 run on CPU 73, core 9 in package: 0
+    - Thread 74 run on CPU 74, core 10 in package: 0
+    - Thread 75 run on CPU 75, core 11 in package: 0
+    - Thread 76 run on CPU 76, core 12 in package: 0
+    - Thread 77 run on CPU 77, core 13 in package: 0
+    - Thread 78 run on CPU 78, core 14 in package: 0
+    - Thread 79 run on CPU 79, core 15 in package: 0
+    - Thread 80 run on CPU 80, core 16 in package: 0
+    - Thread 81 run on CPU 81, core 17 in package: 0
+    - Thread 82 run on CPU 82, core 18 in package: 0
+    - Thread 83 run on CPU 83, core 19 in package: 0
+    - Thread 84 run on CPU 84, core 20 in package: 0
+    - Thread 85 run on CPU 85, core 21 in package: 0
+    - Thread 86 run on CPU 86, core 22 in package: 0
+    - Thread 87 run on CPU 87, core 23 in package: 0
+    - Thread 88 run on CPU 88, core 24 in package: 0
+    - Thread 89 run on CPU 89, core 25 in package: 0
+    - Thread 90 run on CPU 90, core 26 in package: 0
+    - Thread 91 run on CPU 91, core 27 in package: 0
+    - Thread 92 run on CPU 92, core 28 in package: 0
+    - Thread 93 run on CPU 93, core 29 in package: 0
+    - Thread 94 run on CPU 94, core 30 in package: 0
+    - Thread 95 run on CPU 95, core 31 in package: 0
+    - Thread 96 run on CPU 96, core 32 in package: 1
+    - Thread 97 run on CPU 97, core 33 in package: 1
+    - Thread 98 run on CPU 98, core 34 in package: 1
+    - Thread 99 run on CPU 99, core 35 in package: 1
+    - Thread 100 run on CPU 100, core 36 in package: 1
+    - Thread 101 run on CPU 101, core 37 in package: 1
+    - Thread 102 run on CPU 102, core 38 in package: 1
+    - Thread 103 run on CPU 103, core 39 in package: 1
+    - Thread 104 run on CPU 104, core 40 in package: 1
+    - Thread 105 run on CPU 105, core 41 in package: 1
+    - Thread 106 run on CPU 106, core 42 in package: 1
+    - Thread 107 run on CPU 107, core 43 in package: 1
+    - Thread 108 run on CPU 108, core 44 in package: 1
+    - Thread 109 run on CPU 109, core 45 in package: 1
+    - Thread 110 run on CPU 110, core 46 in package: 1
+    - Thread 111 run on CPU 111, core 47 in package: 1
+    - Thread 112 run on CPU 112, core 48 in package: 1
+    - Thread 113 run on CPU 113, core 49 in package: 1
+    - Thread 114 run on CPU 114, core 50 in package: 1
+    - Thread 115 run on CPU 115, core 51 in package: 1
+    - Thread 116 run on CPU 116, core 52 in package: 1
+    - Thread 117 run on CPU 117, core 53 in package: 1
+    - Thread 118 run on CPU 118, core 54 in package: 1
+    - Thread 119 run on CPU 119, core 55 in package: 1
+    - Thread 120 run on CPU 120, core 56 in package: 1
+    - Thread 121 run on CPU 121, core 57 in package: 1
+    - Thread 122 run on CPU 122, core 58 in package: 1
+    - Thread 123 run on CPU 123, core 59 in package: 1
+    - Thread 124 run on CPU 124, core 60 in package: 1
+    - Thread 125 run on CPU 125, core 61 in package: 1
+    - Thread 126 run on CPU 126, core 62 in package: 1
+    - Thread 127 run on CPU 127, core 63 in package: 1
+  The cores are numbered using the logical_index from hwloc.
+[2021-06-15 16:21:47.884567077 CEST][ INFO]: FIRESTARTER exited (status 0)
+[2021-06-15 16:21:47.884642817 CEST][ INFO]: Draining queue summary.aa942a0e7ddf041dcd4346bfde5bf596-547864d611104e9eafed8c17dd11c4ca-data
+[2021-06-15 16:21:47.884688628 CEST][metricq][ INFO]: connecting to management server: amqps://***:***@rabbitmq.metricq.zih.tu-dresden.de/
+[2021-06-15 16:21:48.204675031 CEST][metricq][ INFO]: setting up data queue, messages 243, consumers 0
+[2021-06-15 16:21:48.266944871 CEST][metricq][ INFO]: closed data_connection
+[2021-06-15 16:21:48.284147107 CEST][metricq][ INFO]: sink data queue consume finalize
+metric,num_timepoints,duration_ns,average,stddev,absdev,quart25,quart50,quart75,minimum,maximum,range
+"elab.conway.power",2399,119879921368,314.125,1.67744,0.511155,313.712,314.061,314.409,307.139,338.206,31.0672

@@ -1,0 +1,68 @@
+FIRESTARTER - A Processor Stress Test Utility, Version unknown
+Copyright (C) unknown TU Dresden, Center for Information Services and High Performance Computing
+
+This program comes with ABSOLUTELY NO WARRANTY; for details run `/home/s2599166/sw/x86_64/FIRESTARTER/2.0-hswep-half-l3/FIRESTARTER_CUDA -w`.
+This is free software, and you are welcome to redistribute it
+under certain conditions; run `/home/s2599166/sw/x86_64/FIRESTARTER/2.0-hswep-half-l3/FIRESTARTER_CUDA -c` for details.
+
+  Running custom instruction group: L3_LS:17,L2_LS:12,L1_LS:98,REG:88
+
+  Taking FMA path optimized for HSW_XEONEP - 1 thread(s) per core
+  Used buffersizes per thread:
+    - L1i-Cache: 32768 Bytes
+    - L1d-Cache: 32768 Bytes
+    - L2d-Cache: 262144 Bytes
+    - L3d-Cache: 1310720 Bytes
+    - Memory: 104857600 Bytes
+  system summary:
+    number of processors:        2
+    number of cores per package: 12
+    number of threads per core:  1
+    total number of threads:     24
+
+  processor characteristics:
+    architecture:       x86_64
+    vendor:             INTEL
+    processor-name:     Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+    model:              Family 6, Model 63, Stepping 2
+    frequency:          2500 MHz
+    supported features: MT NX AVX AVX2 BMI BMI2 CLFLUSH CMOV CMPXCHG16B CMPXCHG8B ERMS F16C FMA FPU FSGSBASE FXSR I486 LAHFSAHF LZCNT MMX MONITOR MOVBE MSR OSXSAVE PCLMULQDQ POPCNT PREFETCHW RDRAND RDTSC RDTSCP SMEP SMX SSE SSE2 SSE3 SSE4_1 SSE4_2 SSSE3 VMX XSAVE XSAVEOPT 
+    Caches:
+      - Level 1 Data Cache, 32 KiB, 64 B Cacheline, 8-way set associative, per thread.
+      - Level 1 Instruction Cache, 32 KiB, 64 B Cacheline, 8-way set associative, per thread.
+      - Unified Level 2 Cache, 256 KiB, 64 B Cacheline, 8-way set associative, per thread.
+      - Unified Level 3 Cache, 30720 KiB, 64 B Cacheline, 20-way set associative, shared among 12 threads.
+
+  using 24 threads
+    - Thread 0 run on CPU 0, core 0 in package: 0
+    - Thread 1 run on CPU 1, core 1 in package: 0
+    - Thread 2 run on CPU 2, core 2 in package: 0
+    - Thread 3 run on CPU 3, core 3 in package: 0
+    - Thread 4 run on CPU 4, core 4 in package: 0
+    - Thread 5 run on CPU 5, core 5 in package: 0
+    - Thread 6 run on CPU 6, core 6 in package: 0
+    - Thread 7 run on CPU 7, core 7 in package: 0
+    - Thread 8 run on CPU 8, core 8 in package: 0
+    - Thread 9 run on CPU 9, core 9 in package: 0
+    - Thread 10 run on CPU 10, core 10 in package: 0
+    - Thread 11 run on CPU 11, core 11 in package: 0
+    - Thread 12 run on CPU 12, core 12 in package: 1
+    - Thread 13 run on CPU 13, core 13 in package: 1
+    - Thread 14 run on CPU 14, core 14 in package: 1
+    - Thread 15 run on CPU 15, core 15 in package: 1
+    - Thread 16 run on CPU 16, core 16 in package: 1
+    - Thread 17 run on CPU 17, core 17 in package: 1
+    - Thread 18 run on CPU 18, core 18 in package: 1
+    - Thread 19 run on CPU 19, core 19 in package: 1
+    - Thread 20 run on CPU 20, core 20 in package: 1
+    - Thread 21 run on CPU 21, core 21 in package: 1
+    - Thread 22 run on CPU 22, core 22 in package: 1
+    - Thread 23 run on CPU 23, core 23 in package: 1
+  The cores are numbered using the logical_index from hwloc.
+    --gpus 0 is set. Just stressing CPU(s). Maybe use FIRESTARTER instead of FIRESTARTER_CUDA?
+metric,num_timepoints,duration_ms,average,stddev
+"ipc-estimate",24,0,2.40964,0.0319928
+"metricq",24,114999,435.042,0.199826
+"perf-freq",1185,119860,1.99028,0.00206732
+"perf-ipc",1186,119961,3.02712,0.000134587
+"sysfs-powercap-rapl",1185,119860,241.388,0.510399

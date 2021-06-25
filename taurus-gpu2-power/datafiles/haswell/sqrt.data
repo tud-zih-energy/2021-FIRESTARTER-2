@@ -1,0 +1,12 @@
+[2021-05-28 13:56:29.102242185 CEST][metricq][ INFO]: connecting to management server: amqps://***:***@rabbitmq.metricq.zih.tu-dresden.de/
+[2021-05-28 13:56:29.360546021 CEST][ INFO]: Subscribed to queue summary.43c989b560a71e63266f06335af06443-f8f20e0fe15c4c8db04aadd508550797-data
+[2021-05-28 13:56:29.360674461 CEST][ INFO]: Executing timeout...
+[2021-05-28 13:56:29.361057106 CEST][ INFO]: Waiting for timeout (pid: 31572) to exit...
+[2021-05-28 14:00:29.378591931 CEST][ INFO]: timeout exited (status 124)
+[2021-05-28 14:00:29.378727655 CEST][ INFO]: Draining queue summary.43c989b560a71e63266f06335af06443-f8f20e0fe15c4c8db04aadd508550797-data
+[2021-05-28 14:00:29.378888090 CEST][metricq][ INFO]: connecting to management server: amqps://***:***@rabbitmq.metricq.zih.tu-dresden.de/
+[2021-05-28 14:00:29.614388689 CEST][metricq][ INFO]: setting up data queue, messages 121, consumers 0
+[2021-05-28 14:00:29.683528100 CEST][metricq][ INFO]: closed data_connection
+[2021-05-28 14:00:29.703299623 CEST][metricq][ INFO]: sink data queue consume finalize
+metric,num_timepoints,duration_ns,average,stddev,absdev,quart25,quart50,quart75,minimum,maximum,range
+"taurus.taurusi6181.power",116,115003504000,150.069,0.293617,0.222958,149.92,150.049,150.22,149.318,150.826,1.50851

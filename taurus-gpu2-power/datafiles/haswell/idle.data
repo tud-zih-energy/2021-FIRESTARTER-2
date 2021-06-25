@@ -1,0 +1,12 @@
+[2021-05-28 14:00:29.943653673 CEST][metricq][ INFO]: connecting to management server: amqps://***:***@rabbitmq.metricq.zih.tu-dresden.de/
+[2021-05-28 14:00:30.177485483 CEST][ INFO]: Subscribed to queue summary.fb1a06b6e8525a0828a70237cf4a8b93-c0195b1b3af34f79b9ba50bfe4869037-data
+[2021-05-28 14:00:30.177613491 CEST][ INFO]: Executing sleep...
+[2021-05-28 14:00:30.178004553 CEST][ INFO]: Waiting for sleep (pid: 31863) to exit...
+[2021-05-28 14:04:30.194769977 CEST][ INFO]: sleep exited (status 0)
+[2021-05-28 14:04:30.194916129 CEST][ INFO]: Draining queue summary.fb1a06b6e8525a0828a70237cf4a8b93-c0195b1b3af34f79b9ba50bfe4869037-data
+[2021-05-28 14:04:30.195085777 CEST][metricq][ INFO]: connecting to management server: amqps://***:***@rabbitmq.metricq.zih.tu-dresden.de/
+[2021-05-28 14:04:30.423931140 CEST][metricq][ INFO]: setting up data queue, messages 121, consumers 0
+[2021-05-28 14:04:30.481639144 CEST][metricq][ INFO]: closed data_connection
+[2021-05-28 14:04:30.497541396 CEST][metricq][ INFO]: sink data queue consume finalize
+metric,num_timepoints,duration_ns,average,stddev,absdev,quart25,quart50,quart75,minimum,maximum,range
+"taurus.taurusi6181.power",118,116997854000,79.7976,7.28652,4.51415,76.7016,77.5988,78.1263,74.792,117.171,42.3786

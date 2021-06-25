@@ -1,0 +1,13 @@
+diff --git a/include/firestarter/Environment/X86/Platform/HaswellEPConfig.hpp b/include/firestarter/Environment/X86/Platform/HaswellEPConfig.hpp
+index 7664f56..821ee98 100644
+--- a/include/firestarter/Environment/X86/Platform/HaswellEPConfig.hpp
++++ b/include/firestarter/Environment/X86/Platform/HaswellEPConfig.hpp
+@@ -31,7 +31,7 @@ public:
+   HaswellEPConfig(asmjit::x86::Features const &supportedFeatures,
+                   unsigned family, unsigned model, unsigned threads)
+       : X86PlatformConfig("HSW_XEONEP", 6, {63, 79}, {1, 2}, 0,
+-                          {32768, 262144, 2621440}, 104857600, 1536, family,
++                          {32768, 262144, 1310720}, 104857600, 1536, family,
+                           model, threads,
+                           new payload::FMAPayload(supportedFeatures)) {}
+ 
